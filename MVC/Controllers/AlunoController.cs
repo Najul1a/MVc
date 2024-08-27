@@ -27,7 +27,7 @@ namespace MVC.Controllers
 
 
 
-            return View();
+            return View(listaAluno);
         }
         public IActionResult Cadastrar()
         {
